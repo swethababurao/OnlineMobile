@@ -1,0 +1,280 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0;
+}
+ol, ul {
+    list-style: none outside none;
+}
+.topbg
+{
+	background-image:url(images/top_bg.jpg);
+	background-repeat:repeat-x;
+	height:68px;
+	
+}
+.topheader
+{
+	color: #FFFFFF;
+    font-family: cursive;
+    font-size: 2.2em;
+   
+    padding: 20px 7px 20px 20px;
+	float:left;
+}
+.topspan
+{
+	 float: left;
+    padding-top: 20px;
+}
+.centerdiv
+{
+	background-color: #8F9DE9;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 200px;
+    margin: 131px auto 0;
+    width: 550px;
+	text-align: center;
+}
+.headingtext
+{
+	color: #FFFFFF;
+    font-family: cursive;
+    font-size: 2.8em;
+	margin: 10px;
+}
+.subdiv
+{
+	background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    height: 118px;
+    margin: 20px auto 0;
+    text-align: left;
+    width: 464px;
+}
+.txtform
+{
+	border-color: #8F9DE9;
+    border-right: 1px solid #8F9DE9;
+    border-style: solid;
+    border-width: 1px;
+    font-family: verdana;
+    font-size: 11px;
+	width: 183px;
+}
+.label
+{
+	margin:4px;
+}
+.labelheight
+{
+	height: 20px;
+    margin-left: 40px;
+    padding: 4px;
+}
+.labeldiv
+{
+	float: left;
+    text-align: right;
+    width: 86px;
+}
+.loginbtn
+{
+	background-color: #8F9DE9;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px "Arial";
+    height: 23px;
+    margin-left: 10px;
+    padding: 0 12px;
+}
+
+/* main page div css 
+*/
+
+.contentarea
+{
+	 padding: 30px 0 0;
+	 margin-left:5px;
+}
+.lftcolumn
+{
+	float: left;
+    margin: 9px 0 19px;
+    width: 220px;
+}
+.lftcolumn ul li {
+    
+    border-bottom: 1px solid #E9E9E9;
+	border-left: 1px solid #E9E9E9;
+	border-right: 1px solid #E9E9E9;
+    padding: 7px 0 8px 12px;
+}
+.lftcolumn ul a{
+        background: url("images/bullet_mnf.gif") no-repeat scroll 0 5px transparent;
+    color: #000000;
+    padding: 0 0 0 0px;
+	text-decoration:none;
+}
+.lftcolumn ul a li:hover{
+   color:#FFFFFF;
+   background-color:#8F9DE9;
+}
+.contentarea
+{
+	background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-left: 30px;
+    padding: 0;
+    
+}
+
+.lnksheadertext {
+   
+     color: #FFFFFF;
+    font: 15px "Arial narrow";
+    height: 20px;
+    padding: 5px 0 0 18px;
+    text-transform: uppercase;
+}
+
+.lnksheaderback
+{
+	background-color: #52544f;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border:1px solid #E9E9E9;
+	height: 29px;
+	
+}
+.topmenus{
+	background-color: #3B5998;
+	width:100%;
+	height:20px;
+	padding-left: 20px;
+}
+.topmenus a{
+	color: #FFFFFF;
+	text-decoration:none
+}
+.topmenus a:hover{
+	color: #000000;
+	
+}
+.contenttoper{
+	background-color: #3B5998;
+    border: 1px solid;
+    color: #FFFFFF;
+    height: 18px;
+    margin-top: 9px;
+    padding: 4px;
+    width: 770px;
+}
+div.wrapper { 
+background-color: #8F9DE9;
+    margin-left: 1px;
+    width: 778px;
+} 
+div.left_column { 
+    border: 1px solid;
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+	font-weight: bold;
+} 
+div.content { 
+border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 300px;
+	font-weight: bold;
+    
+} 
+div.right_column { 
+border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 309px;
+	font-weight: bold;
+   
+} 
+div.wrapper2 { 
+    margin-left: 1px;
+    width: 776px;
+	border-left:1px solid;
+	border-bottom:1px solid;
+	border-right:1px solid;
+} 
+div.left_column2 { 
+   
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+} 
+div.content2 { 
+
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 300px;
+    
+} 
+div.right_column2 { 
+
+    float: left;
+    margin-bottom: -2px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 309px;
+   
+} 
+hr { 
+clear:both; 
+display:block; 
+visibility:hidden;}
+
+.formboundry
+{
+	background-color: #FFFFFF;
+    border: 1px solid;
+    height: auto;
+    padding-bottom: 30px;
+    position: absolute;
+    
+    
+    text-align: center;
+    width: 778px;
+}
